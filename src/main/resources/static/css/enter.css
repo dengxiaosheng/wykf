@@ -1,0 +1,282 @@
+html{ margin: 0; padding: 0;}
+body{
+	margin:0;
+	padding:0;
+	background:#ffffff;
+	font-family: "微软雅黑";
+	font-size: 14px;
+ }
+body a{
+	/*transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;*/
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	padding: 0;		   
+}
+p{
+	margin:0;
+	padding: 0;
+}
+ul{
+margin:0;
+padding:0;}
+img{ vertical-align: middle;}
+.fix-middle{ position:absolute; top: 32%;  width:100%; text-align: center;}
+.enter-box{position: relative;}
+.company-banner img{ width: 100%; height: 100%; display: block;}
+/*公司简介tab切换*/
+.box-163css{ width:100%; position:relative; margin-bottom:20px; float:left; }
+.swipe{ padding-top:20px; width:100%; float:left;overflow: hidden; visibility: visible; position: relative; }
+.box01_list{position:relative; -webkit-transition: left 600ms ease-out;  width:100%; left:0;}
+.li_list{width:100%;position:relative; float: left; vertical-align: top;}
+.pic_list{padding:0 2%;width:96%; float:left; margin-bottom:15px;}
+.pic_list img{ float:left; width:120px;}
+.pic_list span{ float:left; padding:10px 0 0 2%; font-size:16px; width:50%;}
+.news_list{ width:98%; padding:0 1%; float:left;}
+.news_list p img{ width:100%; height: 100%; display: block;}
+.news_list a{ float:left; padding-left:1%; font-size:15px;}
+.s_arrow{ display:block; border-top:2px solid #ccc;border-right:2px solid #ccc; -webkit-transform:rotate(45deg); width:6px; height:6px; float:right; margin:6px 10px 0 0;}
+.page{ width:100%;display:-webkit-box;}
+.page li{ width: 50%; font-size:18px; display:block; color:#000; line-height: 38px; text-align:center; }
+.page li a{ background: url(../img/dot.png) no-repeat; background-position: 27px 12px; color:#ff5a60; display:block; height:38px;}
+.emtitle{ height: 40px; line-height: 40px; text-align: center; font-size: 1rem; border-top:1px solid #DCDCDC ; border-bottom:1px solid #DCDCDC ; margin-top: 20px; color: #ff5a60;}
+.page p img{ margin: 0 auto;}
+/*公司简介tab切换*/
+/*首页动画*/
+@keyframes jianjie{
+    		from{ 
+    			transform:translate(-200px,-200px);
+    			-webkit-transform:translate(-200px,-200px);
+    			-moz-transform:translate(-200px,-200px);
+    			transition: all ease-in-out 5s;
+    			-webkit-transition: all ease-in-out 5s ;
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			transition: all ease-in-out 5s;
+    			-webkit-transition: all ease-in-out 5s ;
+    			}
+    	}
+@-webkit-keyframes jianjie{
+    		from{ 
+    			transform:translate(-200px,-200px);
+    			-webkit-transform:translate(-200px,-200px);
+    			-moz-transform:translate(-200px,-200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-moz-keyframes jianjie{
+    		from{ 
+    			transform:translate(-200px,-200px);
+    			-webkit-transform:translate(-200px,-200px);
+    			-moz-transform:translate(-200px,-200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-o-keyframes jianjie{
+    		from{ 
+    			transform:translate(-200px,-200px);
+    			-webkit-transform:translate(-200px,-200px);
+    			-moz-transform:translate(-200px,-200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+.dh1{
+    		animation:jianjie 1s;
+           -moz-animation:jianjie 1s; 
+           -webkit-animation:jianjie 1s; 
+           -o-animation:jianjie 1s; 
+    	}
+@keyframes wenhua{
+    		from{ 
+    			transform:translate(200px,-200px);
+    			-webkit-transform:translate(200px,-200px);
+    			-moz-transform:translate(200px,-200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-webkit-keyframes wenhua{
+    		from{ 
+    			transform:translate(200px,-200px);
+    			-webkit-transform:translate(200px,-200px);
+    			-moz-transform:translate(200px,-200px);
+
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-moz-keyframes wenhua{
+    		from{ 
+    			transform:translate(200px,-200px);
+    			-webkit-transform:translate(200px,-200px);
+    			-moz-transform:translate(200px,-200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-o-keyframes wenhua{
+    		from{ 
+    			transform:translate(200px,-200px);
+    			-webkit-transform:translate(200px,-200px);
+    			-moz-transform:translate(200px,-200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+.dh2{
+    		animation:wenhua 1s;
+           -moz-animation:wenhua 1s; 
+           -webkit-animation:wenhua 1s; 
+           -o-animation:wenhua 1s; 
+    	}
+
+@keyframes lianxi{
+    		from{ 
+    			transform:translate(200px,-200px);
+    			-webkit-transform:translate(200px,-200px);
+    			-moz-transform:translate(200px,-200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-webkit-keyframes lianxi{
+    		from{ 
+    			transform:translate(-200px,200px);
+    			-webkit-transform:translate(-200px,200px);
+    			-moz-transform:translate(-200px,200px);
+
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-moz-keyframes lianxi{
+    		from{ 
+    			transform:translate(-200px,200px);
+    			-webkit-transform:translate(-200px,200px);
+    			-moz-transform:translate(-200px,200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-o-keyframes lianxi{
+    		from{ 
+    			transform:translate(-200px,200px);
+    			-webkit-transform:translate(-200px,200px);
+    			-moz-transform:translate(-200px,200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+.dh3{
+    		animation:lianxi 1s;
+           -moz-animation:lianxi 1s; 
+           -webkit-animation:lianxi 1s; 
+           -o-animation:lianxi 1s; 
+    	}
+@keyframes ziyuan{
+    		from{ 
+    			transform:translate(200px,-200px);
+    			-webkit-transform:translate(200px,-200px);
+    			-moz-transform:translate(200px,-200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-webkit-keyframes ziyuan{
+    		from{ 
+    			transform:translate(200px,200px);
+    			-webkit-transform:translate(200px,200px);
+    			-moz-transform:translate(200px,200px);
+
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-moz-keyframes ziyuan{
+    		from{ 
+    			transform:translate(200px,200px);
+    			-webkit-transform:translate(200px,200px);
+    			-moz-transform:translate(200px,200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+@-o-keyframes ziyuan{
+    		from{ 
+    			transform:translate(200px,200px);
+    			-webkit-transform:translate(200px,200px);
+    			-moz-transform:translate(200px,200px);
+    			}
+    		to{
+    			transform:translate(0px,0px);
+    			-webkit-transform: translate(0px,0px);
+    			-moz-transform:translate(0px,0px);
+    			}
+    	}
+.dh4{
+    		animation:ziyuan 1s;
+           -moz-animation:ziyuan 1s; 
+           -webkit-animation:ziyuan 1s; 
+           -o-animation:ziyuan 1s; 
+    	}
+
+
+
+
+
+
+
+
+

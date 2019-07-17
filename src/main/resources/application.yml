@@ -1,0 +1,24 @@
+server:
+  port: 8088
+ #数据库连接
+spring:
+  datasource:
+    url: jdbc:mysql://39.105.170.236:3306/test?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: galaxys10!
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      auto-commit: true
+      minimum-idle: 5
+      maximum-pool-size: 20
+      connection-timeout: 3000
+  devtools:
+    remote:
+      restart:
+        enabled: true
+  redis:
+    port: 6397
+    host: 47.104.153.180
+    password: bjdv123abc
+
+
